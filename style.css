@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap)
+  @import
+  url(https://fonts.googleapis.com/css2?family=Noto + Sans + SC:wght@700&family=Noto+Serif&display=swap" rel="stylesheet);
+
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100&display=swap);
+
+.logo {
+  float: left;
+  margin-left: 0px 0px 0px 0px;
+  length: 100px;
+  width: 0px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+body {
+  background-color: #d3e7e8;
+  margin: 20;
+}
+
+.header {
+  background-color: #d3dedc;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    -8px 4px 15px rgba(43, 30, 31, 0.12);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (min-width: 800px) {
+  p {
+    font-side: 1.5rem;
+  line-height:1.5;
+  }
+}
+
+h1 {
+  text-align: center;
+  color: #2b3a3d;
+  font-family: "Noto Serif";
+  font-size: 66px;
+}
+
+#intro {
+  background-color: #3d3d3d;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: center;
+  justify-content: center;
+}
+
+.intro-text {
+  font-family: "Noto Sans SC";
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Noto Serif";
+  color: #536b73;
+  text-align: center;
+  font-size: 52px;
+}
+
+#formatting {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 500px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    -8px 4px 15px rgba(43, 30, 31, 0.12);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+
+img {
+  width: 245px;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+  padding: 2em;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+h3 {
+  font-family: "Noto Serif";
+  color: #2b3a3d;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  padding: 0.1em;
+}
+
+footer {
+  background-color: #536b73;
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Noto Sans SC";
+  font-size: 30px;
+  font-weight: 700;
+}
